@@ -1,0 +1,173 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\title{Array.IO lightpaper}
+
+\begin{document}
+\maketitle
+\section {Intro}
+Blockchain technology has been a hot topic ever since it emerged in 2009. What started off as a cryptography experiment is now pushing boundaries of financial institutions and headlining the evolution of the IT sector. There lies a great technology behind all the cryptocurrency hype and as you are reading these lines, an ever growing number of companies are incorporating the  blockchain technology in their business solutions that are already changing the IT scene and the lives of regular people. The blockchain technology is still in its early years - it's not an infant anymore, but a child, that stands well on his feet and it's up to these companies to decide what will it become when it matures. 
+The technology is rapidly evolving. The first incarnation of blockchain was the Cryptocurrency paradigm pioneered by Bitcoin. Later came Ethereum that brought crypto tokens and smart contracts to the table. The latter are pieces of code that run on every full node in the network and record the output to the blockchain where it is kept forever. Now we are seeing the third generation of the technology - customized networks and an evolution of smart contracts called Decentralized Applications (DApps). 
+There is a number of projects that open up the DApp development for the masses, but since it’s a fairly new paradigm, all of those projects have yet to deliver a single and accessible platform that would make creating, deploying and running DApps simple. Developers want to create DApps the way they are used to - in a language they know, in an environment they like. Ordinary people don't want to see any difference between using a DApp and an application that they would download, say, from an App Store or Google Play. They need a marketplace and a way to run these DApps. This is where Array.io comes in.
+
+\section {The Idea}
+The Array.io platform is a combination of a blockchain backed by the Delegated Proof of Stake consensus algorithm and support for smart contracts, an extensive toolkit that simplifies creation and deployment of DApps, and the marketplace with a user-friendly app that breaks down the entry barriers for regular users into the world of decentralized applications.
+
+\section {Main Features}
+A blockchain based on DPoS consensus algorithm that boasts high transaction execution speed and the innate support for smart contracts written in Solidity.
+A DApp SDK that allows to create cross blockchain applications with support of atomic swaps, payment channels and the lightning network protocol.
+IPFS-based DApp storage.
+A customized Array.io Virtual Machine (AVM) that executes smart contracts.
+A client application with a familiar user-friendly UI, which gives access to the DApp marketplace and runs the installed DApps in an isolated environment.
+A standalone cross-platform application called KeyChain, which manages private keys and signs transactions.
+A set of programmer’s tools including:
+Software Development Kit, which consists of:
+Smart contract compiler and debugger
+Set of APIs (cross-chain connectivity, IPFS)
+IDE plugins.
+Array.io Node all-in-one installation tool.
+Exhaustive documentation, usage tutorials and guidelines.
+
+\subsection {DApps on the Array.io}
+The Array.io platform allows to create lots of different kinds of decentralized applications across various domains, including
+Indie games with out of the box P2P connectivity based on IPFS/libp2p.
+Web applications that make use of the blockchain’s transaction capabilities.
+Distributed social networks.
+Cross blockchain applications
+As of June 2018, the most common language for writing smart contracts is Solidity - a Javascript-like language created by the Ethereum Foundation. To facilitate the transition of existing blockchain engineers to the Array.io platform, it will support Solidity as the smart contract language. The rest of the application code (both frontend and backend) for Array.io DApps will be written in JavaScript (Node.JS) + HTML - the de facto standard web development stack.
+All the code written for a DApp, apart from the smart contract will be stored in a peer-to-peer storage network - IPFS. 
+
+\subsubsection {IPFS}
+IPFS, short for Interplanetary File System, is a peer-to-peer distributed file system that eliminates the need for a centralized server to store and access the data. Each file in the system is broken down into hashed blocks that are spread across the network, ridding users from deficiencies of centralization. IPFS has many advantages for content creators, like permanent file availability and the lack of need for a content distributor, but the most important one is that the network is censorship-free, which in case of DApps means that once the application bundle is uploaded, it stays in the network permanently, unless of course the developer chooses to take it down.
+
+\section {Target Audience}
+DApp developers, who are looking for a sophisticated and accessible platform that simplifies the creation and distribution of their DApps. 
+Regular people, who wish to start using decentralized applications without having to worry about technical details. These users will enjoy the Array.io Client application whose job is to run DApps in a safe sandbox that prevents DApps from tampering with one another or the OS. The Client will come bundled with a Marketplace app familiar to all mobile phone users. It will be just like an App Store - one click, and the app is ready. True plug-and-play.
+
+\section {Financing}
+Since its inception in December 2017, the Array.io project has been privately funded by the founders, however the amount of accessible funding is not enough to deliver all the promised functionality in reasonable time. To cover the development expenses, the Array.io team will attract external funding in form of an Initial Development Offering (IDO).
+
+\section {IDO}
+IDO, or Initial Development Offering, is an alternative approach to fundraising a project. In a way similar to ICOs, it will based around temporary Ethereum-based tokens called eRAY that will be distributed among the project backers in return for their contribution in ETH. However, this is where the similarities end. 
+The core ideas of the IDO are as follows:
+The IDO is conducted in a series of Token Generation Rounds, or in short TGRs, with each one having a limit of maximum amount of ETH that can be raised. 
+For each sent ETH, the IDO Smart Contract issues one eRAY token, locking the ETH inside the smart contract. This guarantees that the price of an eRAY is not lower than 1 ETH.
+The eRAYs issued after the ETH deposit are split into two parts: payment fund and contribution. 
+The contribution eRAYs are transferred to the backer’s wallet upon sending ETH to the IDO Smart Contract. The payment fund eRAYs are transferred to the Array.io wallet to be used by the project team as a means of payment to the developers, designers i.e anyone who’s involved in creating the platform. The exact token split percentage depends on the stage of each TGR. 
+The eRAYs may be exchanged back to ETH (refunded) via the IDO Smart Contract at any time until the Mainnet Launch Event (MLE). After the refund, the respective eRAYs are burned.
+At the time of MLE the remaining (non-refunded) ETH is returned back to the original backers. 
+
+\subsection {eRAY tokens}
+eRAY tokens will be based on the Ethereum blockchain and will exist only until the Mainnet is launched. Besides being a measurable representation of each backer’s trust level, they serve a more important purpose by being a foundation for RAY token distribution once eRAYs are dismissed.
+
+\textbf{Important Note}
+eRAYs don’t entitle their holder to a share in the assets of the Array.io Foundation nor they generate any passive income. 
+eRAY tokens are intentionally temporary. Once the Mainnet goes live, all of the eRAYs will be burned and their holders will be awarded with RAY tokens that will live on the Array.io blockchain.
+
+\subsubsection {The incentive to support the project / eRAY usage scenarios}
+An eRAY token holder has three courses of action.
+Burn the eRAYs to get his ETH back in case he loses interest in the project.
+Sell his eRAYs on an exchange at a price not lower that the baseline - 1 ETH.
+Wait until the MLE to receive a batch of RAY tokens. 
+In case a token holder is an early backer, who was one of those who essentially minted the eRAYs with his ETH, he will receive some (perhaps even all) of his ETH back. The exact percentage of returned ETH will be known at the time of MLE. For an elaborate example please refer to the Return of ETH section.
+We expect the majority of eRAY holders to be either developers who wish to get their DApps on the platform as fast as possible to be the first on the market, or firm project believers because from a financial standpoint holding eRAY will prove worthy as RAY is a utility token, whose price will increase as the platform grows and flourishes.
+
+\subsection {Participation in IDO}
+All backers willing to take part in the IDO need to undergo KYC and AML procedures and a review by the Array.io compliance team. There is also a minimum size of the contribution equal to XX ETH.
+
+\subsection {Token Generation Round (TGR)}
+Unlike ICO which is a single continuous process (mind the pre-sale events), IDO is conducted in a series of Token Generation Rounds.
+Each TGR is determined by two numbers - the \textbf{lower bound}, which is the minimum ETH needed to deliver the next iteration of the product and the maximum ETH that can be raised i.e. the \textbf{upper bound}.
+Each round is broken down into equal time intervals, also called \textit{stages} with each stage determining the token split percentage. As it was mentioned earlier, the minted eRAYs are split between the backer and the Array.io team. The further down the TGR timeline (the greater the stage number), the more eRAYs the backer will recieve. For example, on the first day of THR the split is equal to 80\% meaning that for reach ETH, 0.8 eRAYs will be sent to Array.io and the \textbf{Backer A}  will receive 0.2 eRAYs. On day three, the ratio is 40\%, so \textbf{Backer B} will only receive 0.6 eRAYs. In terms of token prices, Backer B will buy more tokens than Backer A for the same amount of ETH. Bearing the gradual price decrease scheme in mind, it makes sense for a backer to wait for the later stages of a TGR, however since a TGR has a relatively small hard cap, it’s possible that it is hit before the scheduled end date, closing the round.This approach creates a sense of competition and entails a huge incentive to get in early.
+TGR parameters, including the upper bound, the lower bound and the number of stages can and will be altered before each round to adapt to the financial state of the project. The exact formula for the TGR stage breakdown and a full list of tunable parameters is described on the IDO specifications page and is out of scope of this document.
+The final number of TGRs is unknown, as it may happen that the development will require more funding than previously expected. In this case the Array.io team will start a new TGR to fund the development of the subsequent iteration.
+
+\subsection {Refund}
+The eRAYs may be exchanged back to ETH at a 1:1 ratio at any time until the MLE. To get a refund, a token holder should transfer his eRAYs to the IDO Smart Contract, which will burn them and refund the respective amount of ETH back. This procedure naturally reduces the Total Supply of eRAYs.
+The refund scheme allows token holders who don’t believe in the project to get rid of eRAYs, not fearing that they will lose their money in case it takes a long time for RAY tokens to reach a certain price level.
+\textbf\textit{Important Note}
+Asking for a refund is not an exclusive opportunity of early backers - any token holder can do that, no matter how he got his eRAYs.
+
+\subsection {Mainnet Launch Event (MLE)}
+The Mainnet Launch Event is preceded by the following steps.
+All eRAYs are frozen on the wallets, prohibiting token transfer and trade.
+All the remaining ETH is returned to the original backers.
+All eRAYs are burned and their holders are awarded with RAYs.
+
+\subsubsection {The return of ETH}
+This is the primary difference between the ICO and the IDO scheme. By returning all of the remaining ETH, we ensure that 
+the project development is fully funded by eRAYs
+the original backers minimize their risk of losing money when supporting the project.
+
+\textbf{\textit{Important Note}}
+Only the those who invested during any of the TGEs will get an opportunity to have the ETH back. Holding eRAYs at the time of MLE does not entitle a person to any of the ETH that backs up his eRAYs. 
+
+\textbf{\textit{Important Note}}
+It’s impossible to predict how much ETH each backer will receive as this value will depend on the total size of refunds.
+
+\textbf{ETH Return Example}
+Here’s an example of how the return works.
+Assume there were two backers, A and B. Backer A sent 500 ETH and received 100 eRAYs, Backer B sent 1500 ETH and received 700 eRAYs making the Total Supply equal to 2000 eRAYs. The Array.io team in this case will have 1200 eRAYs to pay the developers.
+
+The formula for ETH return is as following where ETH k is the amount of ETH, contributed by the backer K, E mle is the eRAY supply at the time of MLE, or final supply, and E issued is the overall number of issued eRAYs. 
+In case no eRAYs were refunded, the E mle is equal to E issued, so all backers have all of their ETH returned, 500 and 1500 respectively regardless of how many eRAYs they hold at that moment.
+Now assume backer B got impatient and burned 200 of his eRAYs. The Emle is now equal to 1800 eRAY, which makes the backer A receive 450 ETH. The backer B in this case will have 1350 ETH back.
+
+\textbf{The creation of RAY}
+The RAY share calculation formula is as following
+ where eRAYk is the number of eRAYs a person holds at the time of MLE and RAY holders is the supply of RAY dedicated to token holders (85\% of the total RAY supply).
+
+ Let’s revisit the previous example and figure out how many RAYs each backer will receive. Assuming the RAY supply is equal to 18kk tokens, the backer A will receive 1kk RAYs and the backer B will get 7kk RAYs.
+The same formula applies to all eRAY holders.
+
+\textbf{Receiving RAY}
+The technical details on this semi-automatic process are being finalized.
+
+\section {RAY tokens}
+RAY tokens are the primary fuel of the Array.io platform. Their use spans from purely technical, as being a foundation for the DPoS consensus protocol, to a more applied, as an internal cryptocurrency to be used across the network.
+
+\subsection {Delegated Proof of Stake (DPoS)}
+A blockchain is essentially a deterministic state machine that operates in terms of transactions. Consensus is the process of agreeing on a deterministic transaction order and filtering out invalid transactions. Over the last years a number of consensus algorithms have emerged, starting with the original Proof of Work and Proof of Stake followed by their modifications. A relatively recent addition to the pack is Delegated Proof of Stake, or DPoS in short, which has proven to be the most secure and performant of them all, allowing up to 100k transactions to be processed each second as opposed to PoW, whose transaction processing speed below acceptable with only a dozen tx/sec. 
+The primary idea of the DPoS algorithm is that no complex mining process is involved, instead transactions are processed and packed into blocks by a small subset of special nodes, called ‘producers’. As opposed to Proof of Work consensus, that came to life along with Bitcoin in 2009, DPoS is more secure, less-prone to regulations, robust and more performant by orders-of-magnitude.
+For a more exhaustive description of the protocol please refer to this article or a DPoS page on the bitshares website.
+
+\subsection {RAY Token Applications}
+Gas for smart contracts
+Price for submitting a transaction
+DPoS stake and producer rewards
+Cryptocurrency within the platform
+State Machine Proxy stake
+State Machine Proxies are special nodes that help perform cross-chain exchange, on other words - the connectors to other blockchains. Full technical description is out of the scope of this document.
+In-app/in-game tokens
+It’s possible and even encouraged for DApp developers to introduce financial mechanisms to their DApps by issuing their own tokens for app-specific use. For example, the DApp marketplace developed by the Array.io team will provide app promotion advertisement services in exchange for app tokens or even RAY.
+
+\subsection {Emission details}
+
+In total, XX RAY tokens will be issued and distributed according to the following scheme:
+
+85\% - eRAY holders 
+10\% - Array.io team
+3\% - bounty campaign participants
+2\% - Array Improvement Proposals (AIPs)
+
+\subsection {Legal notice}
+As of June 2018 the majority of blockchain tokens are considered securities.
+Such tokens are subject to heavy regulation by the government and the authorities, which can result in their delisting from centralized crypto exchanges, inability to issue new tokens and possible penalties to token holders and the issuing organizations. RAY tokens are by nature utility tokens as they don’t entitle their holder to a share in the assets of the Array.io Foundation nor they generate any passive income. 
+
+\section {Project Planning and milestones}
+Below is the approximate project timeline and primary milestones scheduled for the upcoming 9-12 months.
+Launch of IDO (Q3 2018)
+Listing of eRAY tokens (Q3 2018).
+To ensure token liquidity and incentivize early backers to participate in the IDO, the eRAY tokens will be listed on a number of prominent exchanges. With all negotiations done beforehand, eRAYs will become available for trading as soon as the first batch of tokens is issued during the first round of IDO.
+As of June 2018 it is undecided which exchanges will feature eRAYs upon release.
+Launch of the Array.io Testnet and educational marketing (Q4 2018).
+The Array.io blockchain employs the DPoS consensus algorithm, so the operability of the whole system naturally depends on the number of token holders. As soon as the Array.io Testnet goes live, our team will put heavy focus on spreading the word about the project. Below is a list of marketing activities that the Array.io team is considering: 
+Running DApp hackathons, where developers will learn about the platform and get a chance to win eRAY tokens by creating sample DApps and games for the platform.
+Reaching out to indie game developers to attract their interest in building games on the Array.io platform.
+Hosting Solidity Bootcamps and conducting Solidity Courses.
+Starting a Bounty Campaign with eRAY rewards for various kinds of help with platform implementation and testing, e.g. reporting bugs (bug bounty) or translating the product pages to other languages.
+Listing of RAY tokens (Q1 2019)
+The financial applications of the RAY token are an integral part of the Array.io platform. In order for them to work, the token has to have certain liquidity and has to be universally accepted. In order to attain that, RAYs will be listed on a large number of exchanges.
+Launch of the Array.io mainnet. (Q2 2019)
+After the system is thoroughly tested and the blockchain community is well aware of the existence of the platform, it will be time to launch the Array.io Mainnet marking the beginning of the Array.io platform as intended.
+
+\end{document}
